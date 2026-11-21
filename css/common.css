@@ -1,0 +1,76 @@
+:root {
+    --primary-dark: #4F1240;
+    --primary-light: #F2d3ff;
+
+    --button-pink: #E2BFCD;
+    --button-purple: #895288;
+    --button-rose: #D26792;
+    --button-violet: #53485F;
+
+    --background-purple: #854E6E;
+
+    --sub-blue: #241E28;
+
+}
+
+.footer-text {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    font-family: "OkDanDan", sans-serif;
+    background-color: #50455D;
+}
+
+.main-title {
+    font-family: "Trade Winds", serif;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Spicy Rice", serif;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "OkDanDan", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+h3 {
+    font-family: "OkDanDan", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.m1 {
+    font-family: "Spicy Rice", serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.b1 {
+    font-family: "Spicy Rice", serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.b2 {
+    font-family: "OkDanDan", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.title-main h1 {
+    font-family: "Trade Winds", serif;
+    font-size: 90px;
+    font-weight: 400;
+}
