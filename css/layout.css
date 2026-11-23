@@ -298,9 +298,17 @@ main {
     display: block;
 }
 
+.section-bg-02 {
+    background-image: url("../images/pg-04.png");
+    background-size: 120% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 150px;
+}
+
 .heart-scan {
     width: 1249px;
-    margin: 130px auto 110px;
+    margin: 0 auto 110px;
 }
 
 .heart-list {
@@ -538,7 +546,7 @@ main {
 
 .magic-book {
     width: 1310px;
-    height: 659px;
+    height: 1000px;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -691,6 +699,13 @@ main {
     display: block;
 }
 
+.section-bg-03 {
+    background-image: url("../images/bg-05.png");
+    background-size: 120% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .footer {
     width: 1315px;
     height: 154px;
@@ -699,12 +714,13 @@ main {
     font-family: 'Noto Sans KR', sans-serif;
     display: flex;
     justify-content: space-between;
-    padding-top: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .footer-line {
     position: absolute;
-    top: 130px;
+    top: 0px;
     left: 0;
     width: 100%;
     border-top: 1px solid var(--primary-light);
