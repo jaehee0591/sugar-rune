@@ -662,7 +662,7 @@ main {
 }
 
 .book-next:hover .normal {
-    dispaly: none;
+    display: none;
 }
 
 .book-next:hover .hover {
