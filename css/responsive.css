@@ -1,6 +1,286 @@
 @media (max-width: 767px) {
     body {
         width: 100%;
+        min-width: 390px;
+    }
+
+    .footer {
+        width: 440px;
+        height: 100px;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .footer-line {
+        width: 440px;
+        top: 0;
+        left: 0;
+    }
+
+    .footer-left p {
+        font-size: 8px;
+    }
+
+    .footer-made {
+        margin-bottom: 0;
+    }
+
+    .footer-info {
+        line-height: 13px;
+    }
+
+    .footer-left .footer-copy {
+        font-size: 7px;
+        margin-top: 30px;
+    }
+
+    .footer-right {
+        text-align: right;
+        margin-top: 0;
+    }
+
+    .footer-right p {
+        font-size: 7px;
+        margin-bottom: 3px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 0;
+    }
+
+    .magic-book {
+        width: 350px;
+        height: 400px;
+        margin: 50px auto 0;
+    }
+
+    .book-frame {
+        width: 460px;
+        left: -55px;
+        right: 0;
+        margin: 10px auto;
+    }
+
+    .book-title {
+        top: 0;
+    }
+
+    .book-title h2 {
+        font-size: 25px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .book-title p {
+        font-size: 14px;
+    }
+
+    .book-content {
+        top: 60px;
+        gap: 30px;
+    }
+
+    .book-image {
+        width: 170px;
+        margin-top: -30px;
+    }
+
+    .book-image img {
+        width: 200px;
+    }
+
+    .book-prev,
+    .book-next {
+        width: 30px;
+        height: 30px;
+        top: -10px;
+    }
+
+    .book-prev img,
+    .book-next img {
+        width: 30px;
+    }
+
+    .book-button {
+        top: 160px;
+        bottom: auto;
+        width: 90px;
+        height: 50px;
+
+    }
+
+    .book-button img {
+        width: 90px;
+    }
+
+    .heart-card .heart-card-image {
+        top: 8%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .red-card .heart-card-image {
+        width: 180px;
+        top: -140px;
+    }
+
+    .pink-card .heart-card-image {
+        width: 160px;
+        top: -140px;
+    }
+
+    .orange-card .heart-card-image {
+        width: 140px;
+        top: -130px;
+    }
+
+    .green-card .heart-card-image {
+        width: 100px;
+        top: -130px;
+    }
+
+    .heart-card-image h3 {
+        display: none;
+    }
+
+    .heart-card .heart-details {
+        top: 50%;
+        left: 7%;
+        right: 7%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .heart-card .heart-details-left,
+    .heart-card .heart-details-right {
+        width: 46%;
+        margin: 0;
+        gap: 15px;
+    }
+
+    .heart-detail {
+        gap: 8px;
+        margin: 0;
+    }
+
+    .heart-detail img {
+        width: 25px;
+        height: auto;
+    }
+
+    .heart-detail h3 {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    .heart-detail p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .heart-info {
+        width: 90%;
+        margin: -80px auto 0;
+    }
+
+    .heart-card {
+        width: 100%;
+        height: 350px;
+        background-color: var(--background-purple);
+        border-radius: 20px;
+        position: relative;
+        margin-bottom: 20px;
+        background-image: url("../images/heart-frame-mobile.png");
+        background-size: 94% 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .heart-card-bg {
+        display: none;
+    }
+
+    .heart-scan {
+        width: 90%;
+        margin: -100px auto 100px;
+    }
+
+    .heart-list {
+        width: 100%;
+        height: 560px;
+        margin-top: 30px;
+    }
+
+    .heart-title-small {
+        font-size: 17px;
+    }
+
+    .heart-title h2 {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .heart-title-description {
+        font-size: 15px;
+    }
+
+    .heart-image {
+        width: 300px;
+        height: auto;
+        top: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .heart-color {
+        width: 45%;
+    }
+
+    .heart-button img {
+        width: 100%;
+    }
+
+    .heart-color h3 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .heart-color p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .heart-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .heart-color.red {
+        top: 220px;
+        left: 0;
+    }
+
+    .heart-color.pink {
+        top: 220px;
+        right: 0;
+    }
+
+    .heart-color.orange {
+        top: 380px;
+        left: 0;
+    }
+
+    .heart-color.green {
+        top: 380px;
+        right: 0;
     }
 
     .invitation {
@@ -28,26 +308,26 @@
     }
 
     .letter-stamp {
-        width: 15%;
+        width: 20%;
         height: auto;
         top: 15%;
-        left: 74%;
+        left: 70%;
     }
 
     .letter-text {
-        top: 30%;
+        top: 35%;
         left: 0;
         width: 100%;
         text-align: center;
     }
 
     .letter-small {
-        font-size: 10px;
+        font-size: 17px;
         margin-bottom: 10px;
     }
 
     .letter-text h2 {
-        font-size: 15px;
+        font-size: 20px;
         line-height: 19px;
         margin-bottom: 10px;
     }
@@ -122,7 +402,7 @@
     }
 
     .hero-title h1 {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .title-small p {
