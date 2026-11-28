@@ -1,0 +1,59 @@
+@media (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+    .hero {
+        width: 90%;
+        height: 240px;
+        margin: 30px auto 0;
+        position: relative;
+    }
+
+    .hero-decoration {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-character {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        left: 40%;
+        top: 0;
+
+    }
+
+    .hero-title h1 {
+        font-size: 30px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: auto;
+        margin: 0 15x;
+        padding: 15px 0 10px;
+    }
+
+    .logo img {
+        width: auto;
+        height: 16px;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+
+    .menu img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .menu .menu-icon {
+        width: 18px;
+        height: auto;
+    }
+}
