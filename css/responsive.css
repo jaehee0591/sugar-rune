@@ -12,19 +12,50 @@
     }
 
     .letter-bg {
-        width: 90%;
-        height: 84%;
-        top: 8%;
-        left: 3%;
+        width: 96%;
+        height: 96%;
+        top: 4%;
+        left: 2%;
     }
 
     .letter-seal {
-        width: 45px;
+        width: 70px;
         height: auto;
-        top: 0;
+        top: 2%;
         left: 0;
         right: 0;
         margin: 0 auto;
+    }
+
+    .letter-stamp {
+        width: 15%;
+        height: auto;
+        top: 15%;
+        left: 74%;
+    }
+
+    .letter-text {
+        top: 30%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .letter-small {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .letter-text h2 {
+        font-size: 15px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+
+    .letter-description {
+        font-size: 8px;
+        margin-top: 10px;
+        line-height: 12px;
     }
 
     .characters {
