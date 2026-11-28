@@ -5,22 +5,26 @@
 
     .hero {
         width: 90%;
-        height: 240px;
+        height: 330px;
         margin: 30px auto 0;
         position: relative;
     }
 
     .hero-decoration {
-        width: 100%;
-        height: auto;
+        position: absolute;
+        width: 94%;
+        height: 94%;
+        left: 3%;
+        top: 3%;
+        margin: 0;
     }
 
     .hero-character {
-        width: 30%;
+        width: 48%;
         height: auto;
         position: absolute;
-        left: 40%;
-        top: 0;
+        left: 27%;
+        top: 30;
 
     }
 
